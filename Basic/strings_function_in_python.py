@@ -13,3 +13,21 @@
 # find(sub[, start[, end]]): Searches the string for a specified value and returns the position of where it was found
 # index(sub[, start[, end]]): Searches thr string for a speicifed value and returns the position of where it was found
 
+x = "';'';7'rcv academy rcv Academy RCV academy"
+y = 13245679
+
+print(len(x))
+print(str(y))
+# print(y.find("132"))
+
+z = str(y)
+print(z.find("132"))
+print(x.upper())
+print(x.upper())
+print(x.count("rcv"))
+print(x.count("academy"))
+print(x.split())
+print(x.strip())
+print(x.lstrip(';'))
+print(x.replace("rcv", "tendy"))
+print(x.find("stm"))
